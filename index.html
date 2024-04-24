@@ -9,9 +9,15 @@
 <body>
     <header>
         <div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-              </svg>
+            <div class="burger">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+
             <span>Avion</span>
             <div class="icons">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -19,8 +25,7 @@
                   </svg>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                  </svg>
-
+                </svg>
             </div>
         </div>
         <hr>
@@ -36,9 +41,28 @@
             </ul>
         </nav>
     </header>
+    <section class="offset">
+        <nav>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+            <ul>
+                <li><a href="">Plant posts</a></li>
+                <li><a href="">Ceramics</a></li>
+                <li><a href="">Tables</a></li>
+                <li><a href="">Chairs</a></li>
+                <li><a href="">Crockery</a></li>
+                <li><a href="">Tableware</a></li>
+                <li><a href="">Cultery</a></li>
+            </ul>
+        </nav>
+    </section>
     <main>
         <section class="gold">
-            <div>
+            <div class="image">
+                <img src="images/gold.jpg" alt="">
+            </div>
+            <div class="Luxury">
                 <h1>Luxury homeware for people who love timeless design quality</h1>
                 <span>Shop the new Spring 2022 collection today</span>
                 <a href="" class="btn">View collection</a>
@@ -78,23 +102,25 @@
             </div>
         </section>
         <section class="topic">
-            <article>
-                <img src="images/chair.jpg" alt="">
-                <p>The Dandy Chair<span>£250</span></p>
-            </article>
-            <article>
-                <img src="images/vase.jpg" alt="">
-                <p>Rustic Vase Set<span>£155</span></p>
-            </article>
-            <article>
-                <img src="images/silkyvase.jpg" alt="">
-                <p>The Silky Vase<span>£125</span></p>
-            </article>
-            <article>
-                <img src="images/lamp.jpg" alt="">
-                <p>The Lucy Lamp<span>£399</span></p>
-            </article>
-            <a href="" class="btn">View collection</a>
+           <div>
+                <article>
+                    <img src="images/chair.jpg" alt="">
+                    <p>The Dandy Chair<span>£250</span></p>
+                </article>
+                <article>
+                    <img src="images/vase.jpg" alt="">
+                    <p>Rustic Vase Set<span>£155</span></p>
+                </article>
+                <article>
+                    <img src="images/silkyvase.jpg" alt="">
+                    <p>The Silky Vase<span>£125</span></p>
+                </article>
+                <article>
+                    <img src="images/lamp.jpg" alt="">
+                    <p>The Lucy Lamp<span>£399</span></p>
+                </article>
+                <a href="" class="btn">View collection</a>
+            </div>
         </section>
         <section class="idea">
             <div>
@@ -137,33 +163,35 @@
         <header>
             <ul>
                 <li>Menu</li>
-                <li>New arrivals</li>
-                <li>Best sellers</li>
-                <li>Recently viewed</li>
-                <li>Popular this week</li>
-                <li>All products</li>
+                <li><a href="">New arrivals</a></li>
+                <li><a href="">Best sellers</a></li>
+                <li><a href="">Recently viewed</a></li>
+                <li><a href="">Popular this week</a></li>
+                <li><a href="">All products</a></li>
             </ul>
             <ul>
                 <li>Categories</li>
-                <li>Crockery</li>
-                <li>Furniture</li>
-                <li>Homeware</li>
-                <li>Plant posts</li>
-                <li>Chairs</li>
-                <li>Crockery</li>
+                <li><a href="">Crockery</a></li>
+                <li><a href="">Furniture</a></li>
+                <li><a href="">Homeware</a></li>
+                <li><a href="">Plant posts</a></li>
+                <li><a href="">Chairs</a></li>
+                <li><a href="">Crockery</a></li>
             </ul>
             <ul>
                 <li>Our company</li>
-                <li>About us</li>
-                <li>Vacanties</li>
-                <li>Contact us</li>
-                <li>Privacy</li>
-                <li>Returns policy</li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Vacanties</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Returns policy</a></li>
             </ul>
             <form action="">
                 <h4>Join our mailing list</h4>
-                <input type="text" placeholder="your@email.com">
-                <input type="submit" value="Sign up">
+                <div>
+                    <input type="text" placeholder="your@email.com">
+                    <input type="submit" value="Sign up">
+                </div>
             </form>
         </header>
         <hr>
@@ -204,5 +232,6 @@
             </ul>
         </footer>
     </footer>
+    <script src="js/app.js"></script>
 </body>
 </html>
